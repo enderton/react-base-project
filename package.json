@@ -1,15 +1,25 @@
 {
   "name": "react-base-project",
   "version": "0.0.1",
-  "description": "Base Project with React, Webpack, Babel, LESS, etc.",
+  "description": "Starter Base React Project using, Webpack, Babel, LESS, etc.",
   "main": "server/server.js",
   "scripts": {
     "build": "webpack",
     "start": "NODE_ENV='production' webpack && ./node_modules/.bin/babel server/server.js -o ./dist/server.js && node dist/server.js",
     "dev-start": "webpack-dev-server --content-base client/ --progress --inline --hot"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/enderton/react-base-project.git"
+  },
+  "keywords": [
+    "react",
+    "webpack",
+    "babel",
+    "starter"
+  ],
   "author": "Maria Enderton",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "babel-cli": "^6.3.17",
     "babel-core": "^6.3.26",
