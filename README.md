@@ -1,6 +1,7 @@
-# React/Webpack/Babel Starter Project
+# react-base-project
+React/Webpack/Babel Starter Project
 
-Starter project for React using:
+Starter Base React Project, using:
 - React
 - Express
 - ES6 (Babel)
