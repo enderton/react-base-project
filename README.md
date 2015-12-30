@@ -6,7 +6,7 @@ Starter project for React using:
 - ES6 (Babel)
 - Webpack (with React hot loading), Webpack Dev Server
 - LESS style sheets
-(-ESLint)
+- (ESLint)
 
 ## How To Run
 
