@@ -35,8 +35,8 @@
     "less-loader": "^2.2.3",
     "react-transform-hmr": "^1.0.4",
     "style-loader": "^0.13.1",
-    "webpack": "^1.14.0",
-    "webpack-dev-server": "^1.16.2"
+    "webpack": "1.12.9",
+    "webpack-dev-server": "1.14.0"
   },
   "dependencies": {
     "express": "^4.14.0",
