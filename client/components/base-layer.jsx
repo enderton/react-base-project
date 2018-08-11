@@ -12,17 +12,18 @@ const list2 = {
   items: [{ name: 'List Item 1' }, { name: 'List Item 2' }, { name: 'List Item 3' }]
 };
 
-class BaseLayer extends React.Component {
-
-  render() {
-    return (
-      <div className = 'baseLayer'>
-        <div>My React List App</div>
-        <List list = {list1} />
-        <List list = {list2} />
+const BaseLayer = function BaseLayer(props, context) {
+  return (
+    <div>
+      <div className='baseLayer'>
+        <div>
+          My React List App
+          <List list={ list1 } />
+          <List list={ list2 } />
+        </div>
       </div>
-    );
-  }
-}
+    </div>
+  );
+};
 
 export default BaseLayer;

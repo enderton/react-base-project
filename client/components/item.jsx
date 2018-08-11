@@ -1,10 +1,12 @@
 import React from 'react';
 
-class Item extends React.Component {
+class Item extends React.PureComponent {
   render() {
+    const { item } = this.props;
     return (
       <div className='item'>
-        - {this.props.item.name}
+        {'- '}
+        {item.name}
       </div>
     );
   }
