@@ -15,7 +15,7 @@ const list2 = {
 const BaseLayer = function BaseLayer(props, context) {
   return (
     <div>
-      <div className='baseLayer'>
+      <div className='base-layer'>
         <div>
           My React List App
           <List list={ list1 } />
