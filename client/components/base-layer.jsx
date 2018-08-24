@@ -14,14 +14,12 @@ const list2 = {
 
 const BaseLayer = function BaseLayer(props, context) {
   return (
-    <div>
-      <div className='base-layer'>
-        <div>
-          My React List App
-          <List list={ list1 } />
-          <List list={ list2 } />
-        </div>
+    <div className='base-layer'>
+      <div className='header'>
+        React List App
       </div>
+      <List list={ list1 } />
+      <List list={ list2 } />
     </div>
   );
 };
