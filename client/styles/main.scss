@@ -1,0 +1,43 @@
+$font-family: Verdana, Arial, sans serif;
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+html, body{
+  height: 100%;
+  box-sizing: border-box;
+  font-family: $font-family;
+}
+div {
+  box-sizing: border-box;
+}
+
+#app, .app, .base-layer{
+  height: 100%;
+}
+
+.base-layer {
+  background: gray;
+  padding: 10px;
+  color: white;
+  font-size: 30px;
+}
+
+.list {
+  font-size: 24px;
+  .title{
+    height: 26px;
+    line-height: 26px;
+    color: orange;
+  }
+  border: 2px solid black;
+  padding: 4px;
+  margin: 4px;
+}
+
+.item {
+  padding-left: 10px;
+  color: yellow;
+}

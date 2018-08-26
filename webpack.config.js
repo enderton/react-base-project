@@ -21,12 +21,12 @@ var webpackConfig = {
         exclude: [/node_modules/],
         loader: 'babel-loader'
       }, {
-        test: /\.less$/,
+        test: /\.(s*)css$/,
         exclude: [/node_modules/],
         use: [
           'style-loader',
           'css-loader',
-          'less-loader'
+          'sass-loader'
         ]
       }
     ]
@@ -36,7 +36,8 @@ var webpackConfig = {
     extensions: [
       '.js',
       '.jsx',
-      '.less'
+      '.css',
+      '.scss'
     ]
   },
 

@@ -6,7 +6,7 @@ Starter Base React Project, using:
 - Express
 - ES6 (Babel)
 - Webpack (with React hot loading), Webpack Dev Server
-- LESS style sheets
+- SASS style sheets
 - (ESLint)
 
 ## How To Run
